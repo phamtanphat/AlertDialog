@@ -8,19 +8,19 @@
     android:gravity="center">
 
     <Button
-        android:text="Alert Dialog"
+        android:text="@string/alert_dialog"
         android:id="@+id/buttonShowAlertDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
         android:layout_below="@id/buttonShowAlertDialog"
-        android:text="Single choice AlertDialog"
+        android:text="@string/single_choice_alertdialog"
         android:id="@+id/buttonSingleChoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <Button
         android:layout_below="@id/buttonSingleChoice"
-        android:text="Multiple choice AlertDialog"
+        android:text="@string/multiple_choice_alertdialog"
         android:id="@+id/buttonMultipleChoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
